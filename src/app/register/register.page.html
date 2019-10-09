@@ -5,7 +5,11 @@
 </ion-header>
 
 <ion-content>
+    <button (click)="switchLanguage('en')">en</button>
+
+    <button (click)="switchLanguage('bg')">bg</button>
   <div class="ion-text-center">
-    <ion-button [routerLink]="['/login']" >Register</ion-button>
+    <ion-button [routerLink]="['/login']" >{{ 'LOGIN.register' | translate }}
+    </ion-button>
   </div>
 </ion-content>

@@ -1,0 +1,8 @@
+{
+    "REGISTER": {
+        "login": "Login"
+    },
+    "LOGIN": {
+        "register": "Register" 
+    }
+}
