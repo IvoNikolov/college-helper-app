@@ -1,15 +1,19 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>register</ion-title>
+    <ion-buttons slot="start">
+        <ion-back-button defaultHref="/login"></ion-back-button>
+        <ion-title>Register</ion-title>
+    </ion-buttons>
+    <ion-buttons slot="primary">
+        <ion-button (click)="switchLanguage('en')">en</ion-button>
+        <ion-button (click)="switchLanguage('bg')">bg</ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-    <button (click)="switchLanguage('en')">en</button>
-
-    <button (click)="switchLanguage('bg')">bg</button>
   <div class="ion-text-center">
-    <ion-button [routerLink]="['/login']" >{{ 'LOGIN.register' | translate }}
+    <ion-button [routerLink]="['/login']" routerDirection="backward">{{ 'LOGIN.register' | translate }}
     </ion-button>
   </div>
 </ion-content>

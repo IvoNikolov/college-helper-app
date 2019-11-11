@@ -3,6 +3,7 @@
         "login": "Login"
     },
     "LOGIN": {
-        "register": "Register" 
+        "register": "Register",
+        "login": "Login"
     }
 }

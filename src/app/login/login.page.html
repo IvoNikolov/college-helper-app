@@ -6,6 +6,7 @@
 
 <ion-content>
   <div class="ion-text-center">
-    <ion-button [routerLink]="['/register']" >{{'REGISTER.login' | translate}}</ion-button>
+    <ion-button (click)="login()" expand="block">{{'LOGIN.login' | translate}}</ion-button>
+    <ion-button expand="block" [routerLink]="['/register']" routerDirection="forward">{{'LOGIN.register' | translate}}</ion-button>
   </div>
 </ion-content>
