@@ -17,7 +17,7 @@ export class AppComponent {
   public appPages = [
     {
       title: 'Settings',
-      url: '/list',
+      url: '/settings',
       icon: 'settings'
     },
     {

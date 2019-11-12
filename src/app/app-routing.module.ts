@@ -14,7 +14,9 @@ const routes: Routes = [
   },
   { path: 'list', canActivate : [AuthGuardService], loadChildren: './list/list.module#ListPageModule' },
   { path: 'register', loadChildren: './register/register.module#RegisterPageModule' },
-  { path: 'login', loadChildren: './login/login.module#LoginPageModule' }
+  { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
+  { path: 'settings', loadChildren: './settings/settings.module#SettingsPageModule' }
+
 ];
 
 @NgModule({

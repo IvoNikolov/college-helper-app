@@ -1,0 +1,22 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>
+        Settings
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content>
+    Autumn
+    <div class="square" style="background: #FDE8DF;" (click)="changeTheme('autumn')"></div>
+    Night
+    <div class="square" style="background: #495867;" (click)="changeTheme('night')"></div>
+    Neon 
+    <div class="square" style="background: #F4EDF2;" (click)="changeTheme('neon')"></div> 
+    Default
+    <div class="square" style="background: #f4f5f8;" (click)="changeTheme('')"></div> 
+
+</ion-content>
