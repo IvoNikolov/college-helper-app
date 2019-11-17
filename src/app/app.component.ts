@@ -7,6 +7,7 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { LanguageService } from './services/language.service';
 import { AuthenticationService } from './services/auth/authentication.service';
+import { ThemeService } from './services/theme/theme.service';
 
 @Component({
   selector: 'app-root',
@@ -44,7 +45,8 @@ export class AppComponent {
     private statusBar: StatusBar,
     private languageService: LanguageService,
     private authService: AuthenticationService,
-    private router: Router
+    private router: Router,
+    private theme: ThemeService
   ) {
     this.initializeApp();
   }
@@ -53,6 +55,7 @@ export class AppComponent {
     this.platform.ready().then(() => {
       this.statusBar.styleDefault();
       this.splashScreen.hide();
+      this.theme.setTheme('default');
       this.authService.authenticationState.subscribe(state => {
         if (state) {
             this.router.navigate(['list']);
