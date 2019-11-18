@@ -9,6 +9,8 @@ import { ThemeService } from '../services/theme/theme.service';
 })
 export class SettingsPage implements OnInit {
 
+    showThemeOptions = false;
+
     constructor(private theme: ThemeService) {}
 
     ngOnInit() {
@@ -16,6 +18,10 @@ export class SettingsPage implements OnInit {
 
     changeTheme(name) {
       this.theme.setTheme(name);
+    }
+
+    onShowDetails() {
+      this.showThemeOptions = !this.showThemeOptions;
     }
 
 }
