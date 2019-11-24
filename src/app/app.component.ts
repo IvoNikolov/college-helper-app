@@ -17,6 +17,11 @@ import { ThemeService } from './services/theme/theme.service';
 export class AppComponent {
   public appPages = [
     {
+      title: 'User',
+      url: '/user',
+      icon: 'person'
+    },
+    {
       title: 'Settings',
       url: '/settings',
       icon: 'settings'
