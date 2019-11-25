@@ -15,7 +15,8 @@ const routes: Routes = [
   { path: 'list', canActivate : [AuthGuardService], loadChildren: './list/list.module#ListPageModule' },
   { path: 'register', loadChildren: './register/register.module#RegisterPageModule' },
   { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
-  { path: 'settings', loadChildren: './settings/settings.module#SettingsPageModule' },  { path: 'user', loadChildren: './user/user.module#UserPageModule' }
+  { path: 'settings', loadChildren: './settings/settings.module#SettingsPageModule' },  { path: 'user', loadChildren: './user/user.module#UserPageModule' },
+  { path: 'products-list', loadChildren: './products-list/products-list.module#ProductsListPageModule' }
 
 
 ];
