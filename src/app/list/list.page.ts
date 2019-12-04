@@ -8,16 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class ListPage implements OnInit {
   private selectedItem: any;
   private icons = [
-    'flask',
-    'wifi',
+    'pizza',
+    'contacts',
     'beer',
-    'football',
-    'basketball',
-    'paper-plane',
-    'american-football',
-    'boat',
-    'bluetooth',
-    'build'
   ];
   public items: Array<{ title: string; note: string; icon: string }> = [];
   constructor() {
