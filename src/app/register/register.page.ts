@@ -16,7 +16,7 @@ export class RegisterPage implements OnInit {
     this.currentLanguage = this.language.selected;
   }
 
-  switchLanguage(lng) {
+  switchLanguage(lng: string) {
     this.currentLanguage = lng;
     this.language.setLanguage(lng);
   }
