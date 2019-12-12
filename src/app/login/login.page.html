@@ -1,12 +1,12 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>login</ion-title>
+    <ion-title>{{'COMMON.LOGIN' | translate}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <div class="ion-text-center">
-    <ion-button (click)="login()" expand="block" >{{'LOGIN.login' | translate}}</ion-button>
-    <ion-button expand="block" [routerLink]="['/register']" routerDirection="forward">{{'LOGIN.register' | translate}}</ion-button>
+    <ion-button (click)="login()" expand="block" >{{'COMMON.LOGIN' | translate}}</ion-button>
+    <ion-button expand="block" [routerLink]="['/register']" routerDirection="forward">{{'COMMON.REGISTER' | translate}}</ion-button>
   </div>
 </ion-content>

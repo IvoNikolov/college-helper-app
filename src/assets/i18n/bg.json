@@ -1,9 +1,6 @@
 {
-    "REGISTER": {
-        "login": "Влез"
-    },
-    "LOGIN": {
-        "register": "Регистрирай се",
-        "login": "Влез"
+    "COMMON": {
+        "LOGIN": "Влез",
+        "REGISTER": "Регистрирай се"
     }
 }

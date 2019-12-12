@@ -1,9 +1,6 @@
 {
-    "REGISTER": {
-        "login": "Login"
-    },
-    "LOGIN": {
-        "register": "Register",
-        "login": "Login"
+    "COMMON": {
+        "LOGIN": "Login",
+        "REGISTER": "Register"
     }
 }
