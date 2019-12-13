@@ -2,5 +2,8 @@
     "COMMON": {
         "LOGIN": "Login",
         "REGISTER": "Register"
+    },
+    "LIST": {
+        "LIST": "List"
     }
 }
