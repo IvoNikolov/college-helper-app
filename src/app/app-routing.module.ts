@@ -18,7 +18,8 @@ const routes: Routes = [
   { path: 'settings', loadChildren: './settings/settings.module#SettingsPageModule' },  { path: 'user', loadChildren: './user/user.module#UserPageModule' },
   { path: 'products-list', loadChildren: './products-list/products-list.module#ProductsListPageModule' },
   { path: 'about', loadChildren: './about/about.module#AboutPageModule' },
-  { path: 'calendar', loadChildren: './calendar/calendar.module#CalendarPageModule' }
+  { path: 'calendar', loadChildren: './calendar/calendar.module#CalendarPageModule' },
+  { path: 'fests', loadChildren: './fests/fests.module#FestsPageModule' }
 
 
 ];
