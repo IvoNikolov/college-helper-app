@@ -5,5 +5,8 @@
     },
     "LIST": {
         "LIST": "List"
+    },
+    "FESTS": {
+        "FEST": "FEST"
     }
 }

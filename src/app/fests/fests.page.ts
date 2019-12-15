@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FestsPage implements OnInit {
 
+  currentDate = new Date();
+
   constructor() { }
 
   ngOnInit() {
+    console.log(this.currentDate.getDate(), this.currentDate.getDay(), this.currentDate.getMonth());
   }
 
 }
