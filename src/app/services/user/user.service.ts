@@ -20,4 +20,8 @@ export class UserService {
 
 
   constructor() { }
+
+  getUser(id: string) {
+
+  }
 }
