@@ -20,7 +20,8 @@ const routes: Routes = [
   { path: 'about', loadChildren: './about/about.module#AboutPageModule' },
   { path: 'calendar', loadChildren: './calendar/calendar.module#CalendarPageModule' },
   { path: 'fests', loadChildren: './fests/fests.module#FestsPageModule' },
-  { path: 'reminder', loadChildren: './reminder/reminder.module#ReminderPageModule' }
+  { path: 'reminder', loadChildren: './reminder/reminder.module#ReminderPageModule' },
+  { path: 'friends', loadChildren: './friends/friends.module#FriendsPageModule' }
 
 
 ];
