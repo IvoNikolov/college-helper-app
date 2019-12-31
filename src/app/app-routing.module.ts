@@ -21,7 +21,8 @@ const routes: Routes = [
   { path: 'calendar', loadChildren: './calendar/calendar.module#CalendarPageModule' },
   { path: 'fests', loadChildren: './fests/fests.module#FestsPageModule' },
   { path: 'reminder', loadChildren: './reminder/reminder.module#ReminderPageModule' },
-  { path: 'friends', loadChildren: './friends/friends.module#FriendsPageModule' }
+  { path: 'friends', loadChildren: './friends/friends.module#FriendsPageModule' },
+  { path: 'add-friend', loadChildren: './friends/add-friend/add-friend.module#AddFriendPageModule' }
 
 
 ];
