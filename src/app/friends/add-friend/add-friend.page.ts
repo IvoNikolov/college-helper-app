@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {FormBuilder, FormControl, FormGroup, Validators, FormArray} from '@angular/forms';
 
 @Component({
   selector: 'app-add-friend',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AddFriendPage implements OnInit {
 
+  friendForm: FormGroup;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  initForm() {
+    this.friendForm = new FormGroup({
+      name: new FormControl('', Validators.required),
+      birthday: new FormControl('', Validators.required)
+  });
   }
 
 }
