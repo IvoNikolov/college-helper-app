@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Fest } from '../models/fest.model';
 
 @Component({
   selector: 'app-fests',
@@ -7,12 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FestsPage implements OnInit {
 
-  fests = [];
+  fests: Fest[];
   currentDate = new Date();
 
   constructor() { }
 
   ngOnInit() {
+
     console.log(this.currentDate.getDate(), this.currentDate.getDay(), this.currentDate.getMonth());
   }
 
