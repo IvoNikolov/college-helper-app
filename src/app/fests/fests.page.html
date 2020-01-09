@@ -10,9 +10,10 @@
 </ion-header>
 
 <ion-content>
+  <h1>Fests on {{currentDate | date:'shortDate'}}</h1>
   <ion-list>
     <ion-item *ngFor="let fest of fests">
-      <ion-label>{{fest}}</ion-label>
+      <ion-label>{{fest.name}}</ion-label>
     </ion-item>
   </ion-list>
 

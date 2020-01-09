@@ -14,7 +14,6 @@ export class FestsPage implements OnInit {
   constructor() { }
 
   ngOnInit() {
-
     console.log(this.currentDate.getDate(), this.currentDate.getDay(), this.currentDate.getMonth());
   }
 
