@@ -68,7 +68,7 @@ export class AppComponent {
       this.theme.setTheme('default');
       this.authService.authenticationState.subscribe(state => {
         if (state) {
-            this.router.navigate(['list']);
+            this.router.navigate(['home']);
         } else {
             this.router.navigate(['']);
         }
