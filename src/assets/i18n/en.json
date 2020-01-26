@@ -19,6 +19,7 @@
         "CALENDAR": "Calendar"
     },
     "ABOUT": {
-        "ABOUT": "About"
+        "ABOUT": "About",
+        "TEXT": "Text"
     }
 }
