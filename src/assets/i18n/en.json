@@ -10,7 +10,8 @@
         "FEST": "FEST"
     },
     "HOME": {
-        "HOME": "Home"
+        "HOME": "Home",
+        "NO_AVAILABLE_FESTS": "No current fests"
     },
     "FRIENDS": {
         "FRIENDS": "Friends"
