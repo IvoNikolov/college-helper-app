@@ -7,7 +7,8 @@
         "LIST": "List"
     },
     "FESTS": {
-        "FEST": "FEST"
+        "FEST": "FEST",
+        "FEST_ON": "Fests on"
     },
     "HOME": {
         "HOME": "Home",
