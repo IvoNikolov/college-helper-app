@@ -18,7 +18,8 @@
         "FRIENDS": "Приятели"
     },
     "CALENDAR": {
-        "CALENDAR": "Календар"
+        "CALENDAR": "Календар",
+        "CALENDAR_EVENTS": "Събития"
     },
     "ABOUT": {
         "ABOUT": "Информация",

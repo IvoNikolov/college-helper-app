@@ -18,7 +18,8 @@
         "FRIENDS": "Friends"
     },
     "CALENDAR": {
-        "CALENDAR": "Calendar"
+        "CALENDAR": "Calendar",
+        "CALENDAR_EVENTS": "Calendar Events"
     },
     "ABOUT": {
         "ABOUT": "About",
