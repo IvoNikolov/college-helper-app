@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FriendsPage implements OnInit {
 
+  friendsArray = [{
+    name: 'Daniel',
+    birthdayDay: '',
+    birthdayMonth: '',
+  }];
   constructor() { }
 
   ngOnInit() {
