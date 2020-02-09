@@ -16,6 +16,11 @@ export class FriendsPage implements OnInit {
       name: 'Susan',
       birthdayDay: '2',
       birthdayMonth: '3'
+    },
+    {
+      name: 'Ivan',
+      birthdayDay: '5',
+      birthdayMonth: '3'
     }
   ];
   constructor() {}
