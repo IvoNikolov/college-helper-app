@@ -1,6 +1,9 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>{{ "CALENDAR.CALENDAR" | translate}}</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+      <ion-title>{{ "CALENDAR.CALENDAR" | translate}}</ion-title>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
@@ -8,7 +11,7 @@
   <ion-grid>
     <ion-row>
       <ion-col class="ion-text-center">
-        {{ "CALENDAR.CALENDAR_EVENTS" | translate}
+        {{ "CALENDAR.CALENDAR_EVENTS" | translate}}
       </ion-col>
     </ion-row>
   </ion-grid>
