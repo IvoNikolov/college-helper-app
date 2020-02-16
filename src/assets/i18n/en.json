@@ -4,7 +4,8 @@
         "REGISTER": "Register"
     },
     "LIST": {
-        "LIST": "List"
+        "LIST": "List",
+        "LIST_TITLE": "Available products"
     },
     "FESTS": {
         "FEST": "FEST",
