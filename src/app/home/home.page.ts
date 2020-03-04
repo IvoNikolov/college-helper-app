@@ -7,6 +7,9 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  today: Date;
+  constructor() {
+    this.today = new Date();
+  }
 
 }
